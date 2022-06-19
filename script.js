@@ -18,6 +18,7 @@ const blueSound = new Audio("./assets/sounds/blue.mp3");
 document.onkeydown=function(event){
     if (event.key);
     currentLevel = "Level 1";
+    console.log("working");
 }
 
 // Targets #level-title and Updates What Level the User is On
@@ -84,9 +85,3 @@ function currentGameLevelFunction(){
 
 //     console.log(blocksInPlay);
 // }
-
-
-
-
-
-
